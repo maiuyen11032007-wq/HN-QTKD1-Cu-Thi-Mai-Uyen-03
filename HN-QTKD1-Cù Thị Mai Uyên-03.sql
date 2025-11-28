@@ -111,7 +111,7 @@ where c.customer_name like '%Dung%';
 -- 5. Lấy ra 5 đơn hàng được đặt gần đây nhất
 select * from orders o
 order by o.order_date desc
-limit 1; 
+limit 5; 
 
 -- Câu 6: Truy vấn nhiều bảng
 -- 1. Lấy ra danh sách gồm: Tên khách hàng (customer_name), Tên sản phẩm (product_name), Số lượng (quantity) và Ngày đặt (order_date).
